@@ -25,7 +25,7 @@ const UserList = (props) => {
     return(
         <div className="userList">
             <button onClick={()=> logout()}>log out</button>
-            <h1>hello from user list component</h1>
+            <h1>jokes!</h1>
             {userList && userList.map(joke => {
             
                 return <p key={joke.id}>{joke.joke}</p>

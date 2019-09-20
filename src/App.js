@@ -6,7 +6,7 @@ import Register from './components/RegisterUser';
 import Jokes from './components/JokeList';
 import Home from './components/HomePage';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (

@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+  background-color: #c1c8e4;
+}
+
+
+
+.App-header {
+  background-color: #5680e9;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.home {
+  background: #c1c8e4;
+  height: 100vh;
+  p {
+    color: #5ab9ea;
+    font-size: 2rem;
+  }
+}
+.homeBtn {
+  background-color: #8860D0;
+  color: white;
+  border: 1px solid #5680e9;
+  width: 20%;
+  height: 3rem;
+  border-radius: .5rem;
+  padding: .5rem;
+  margin: 1rem;
+  font-size: 1.6rem;
+  text-align: center;
+
+}
+
+.login {
+  background: #c1c8e4;
+  height: 100vh;
+ 
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  max-width: 40%;
+  height: auto;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-image: linear-gradient(to right,#8860d0, #c1c8e4  );
+  input {
+    margin-top: 1rem;
+    padding: .5rem;
+    border-radius: .2rem;
+    width: 30%;
+  }
+
+}
+.loginBtn {
+  background: #84ceeb;
+  color: white;
+  border: 1px solid #5680e9;
+  width: 30%;
+  height: 3rem;
+  border-radius: .5rem;
+  padding: .5rem;
+  margin: 1rem;
+  font-size: 1.6rem;
+  text-align: center;
+
+
+}
+
+.userList {
+  background: #c1c8e4;
+  height: 100vh;
+  color: #5680e9;
+  button {
+    background: #84ceeb;
+    color: white;
+    border: 1px solid #5680e9;
+    width: 10%;
+    height: 3rem;
+    border-radius: .5rem;
+    padding: .5rem;
+    margin: 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+
+  }
+
+}
+
+.user {
+  color: #5680e9;
+  font-size: 1.6rem;
+}
+
+.logout {
+  display: flex;
+  justify-content: flex-end;
+  button {
+    margin-right: 20rem;
+    background: #84ceeb;
+    color: white;
+    border: 1px solid #8860D0;
+    height: 3rem;
+    border-radius: .5rem;
+    padding: .5rem;
+    margin: 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}
+
+
